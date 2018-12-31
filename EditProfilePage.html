@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>YouMeTripsWeb</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-CSS-Image-Slider.css">
+    <link rel="stylesheet" href="assets/css/Button-Outline-Success.css">
+    <link rel="stylesheet" href="assets/css/Community-ChatComments.css">
+    <link rel="stylesheet" href="assets/css/Diagonal-div-section.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Form-Select---Full-Date---Month-Day-Year.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Profile-Card.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form-1.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Features-Item-1.css">
+    <link rel="stylesheet" href="assets/css/Features-Item.css">
+    <link rel="stylesheet" href="assets/css/User-Tasks-and-User-Activity-Streams---List-Group-Component.css">
+    <link rel="stylesheet" href="assets/css/Pretty-User-List.css">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+            <div class="container"><a class="navbar-brand" href="HomePage.html">YouMeTrips</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Profile</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ExplorePage.html">Map</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ChatListPage.html">Chat</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="NotificationPage.html">Notification</a></li>
+                    </ul><span class="navbar-text actions"> <a href="LoginAccountPage.html" class="login">Log out</a></span></div>
+            </div>
+        </nav>
+    </div>
+    <div class="container profile profile-view" id="profile">
+        <div class="row">
+            <div class="col-md-12 alert-col relative">
+                <div class="alert alert-info absolue center" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Profile save with success</span></div>
+            </div>
+        </div>
+        <form>
+            <div class="form-row profile-row">
+                <div class="col-md-4 relative">
+                    <div class="avatar">
+                        <div class="avatar-bg center"></div>
+                    </div><input type="file" class="form-control" name="avatar-file"></div>
+                <div class="col-md-8">
+                    <h1>Profile </h1>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Fullname</label><input class="form-control" type="text" name="firstname"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Job</label><input class="form-control" type="text" name="lastname"></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label>Bio</label><input class="form-control" type="email" autocomplete="off" required="" name="email"></div>
+                    <div class="form-group"><label>Birthday</label>
+                        <div class="form-row">
+                            <div class="col-sm-12"><select class="form-control display-inline-block"><optgroup label="Day"><option value="12" selected="">12</option></optgroup></select><select class="form-control display-inline-block"><optgroup label="Month"><option value="9" selected="">9</option></optgroup></select>
+                                <select
+                                    class="form-control display-inline-block">
+                                    <optgroup label="Year">
+                                        <option value="1997" selected="">1997</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label>Gender</label>
+                        <div>
+                            <fieldset></fieldset>
+                            <fieldset>
+                                <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" checked="" id="customRadioInline1" class="custom-control-input"><label class="custom-control-label" for="customRadioInline1">Male</label></div>
+                                <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Female</label></div>
+                                <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Other</label></div>
+                            </fieldset>
+                            <fieldset></fieldset>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Password </label><input class="form-control" type="password" name="password" autocomplete="off" required=""></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Confirm Password</label><input class="form-control" type="password" name="confirmpass" autocomplete="off" required=""></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2017</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Features-Item-1.js"></script>
+    <script src="assets/js/Features-Item.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>
+</body>
+
+</html>
