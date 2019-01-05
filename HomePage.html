@@ -40,21 +40,67 @@
     <link rel="stylesheet" href="assets/css/User-Tasks-and-User-Activity-Streams---List-Group-Component.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="index.html">YouMeTrips</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav mr-auto"></ul><span class="navbar-text actions"> <a href="LoginAccountPage.html" class="login">Log In</a><a class="btn btn-light action-button" role="button" href="SignUpPage.html">Sign Up</a></span></div>
+<body class="text-center">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+            <div class="container"><a class="navbar-brand" href="HomePage.html">YouMeTrips</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="HomePage.html">Profile</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ExplorePage.html">Map</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ChatListPage.html">Chat</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="NotificationPage.html">Notification</a></li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Create&nbsp;</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="CreatePlanPage.html">Plan</a><a class="dropdown-item" role="presentation" href="CreateDiaryPage.html">Diary</a></div>
+                        </li>
+                    </ul><span class="navbar-text actions"> <a href="LoginAccountPage.html" class="login">Log out</a><a class="btn btn-light action-button" role="button" href="EditProfilePage.html">Edit</a></span></div>
+            </div>
+        </nav>
+    </div>
+    <div class="footer-basic">
+        <div class="text-center profile-card" style="margin:15px;background-color:#ffffff;">
+            <div class="profile-card-img" style="background-image:url(&quot;iceland.jpg&quot;);height:150px;background-size:cover;"></div>
+            <div><img class="rounded-circle" src="assets/img/avatar-dhg.png" height="150px" style="margin-top:-70px;">
+                <h3>Joseph Mancuso</h3>
+                <p style="padding:20px;padding-bottom:0;padding-top:5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus felis et libero scelerisque.</p>
+            </div>
+            <div class="row d-inline-flex" style="padding:0;padding-bottom:10px;padding-top:20px;">
+                <div class="col-md-6"><a href="FriendListPage.html" class="login">Friends</a>
+                    <p class="text-center"><strong>12M</strong> </p>
+                </div>
+                <div class="col-md-6"><a href="LoginAccountPage.html" class="login">Trips</a>
+                    <p class="text-center"><strong>16</strong></p>
+                </div>
+            </div>
+            <div class="row" style="padding:0;padding-bottom:10px;padding-top:20px;">
+                <div class="col text-center d-lg-flex justify-content-center align-items-center align-content-center justify-content-lg-center" style="padding: 0px;">
+                    <div class="text-center d-inline col-md-4 col-sm-6 wow fadeInDown">
+                        <div class="text-center feature-wrap" style="margin-bottom: 0px;">
+                            <h2>Coming Plan</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit </h3><a href="PlanList.html" class="login">See more</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div class="login-clean">
-        <form method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email / Phone number"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><a class="btn btn-primary btn-block" role="button" href="HomePage.html">Log In</a><button class="btn btn-primary btn-block" type="submit" style="background-color:#4267b2;">Log In with Facebook</button></div><a href="#" class="forgot">Register new account</a></form>
+        <h2>Diaries</h2>
+        <section><div class="container"><figure class="snip1563">
+  <img src="https://assets.imgix.net/hp/snowshoe.jpg" alt="sample110" />
+  <figcaption>
+    <h3>Fuji</h3>
+    <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+  </figcaption>
+  <a href="DiaryDetailPage.html"></a>
+</figure>
+</div></section>
+    </div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
     <div class="footer-basic">
         <footer>

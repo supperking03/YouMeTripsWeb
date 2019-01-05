@@ -41,20 +41,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="index.html">YouMeTrips</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav mr-auto"></ul><span class="navbar-text actions"> <a href="LoginAccountPage.html" class="login">Log In</a><a class="btn btn-light action-button" role="button" href="SignUpPage.html">Sign Up</a></span></div>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+            <div class="container"><a class="navbar-brand" href="HomePage.html">YouMeTrips</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="HomePage.html">Profile</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ExplorePage.html">Map</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ChatListPage.html">Chat</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="NotificationPage.html">Notification</a></li>
+                    </ul><span class="navbar-text actions"> <a href="LoginAccountPage.html" class="login">Log out</a></span></div>
+            </div>
+        </nav>
+    </div>
+    <div class="container profile profile-view" id="profile">
+        <div class="card"><img class="card-img w-100 d-block" src="https://www.aa.com/content/images/aadvantage-program/miles/redeem/award-travel/award-travel-banner.jpg" style="opacity: 1;filter: blur(2px) brightness(101%);">
+            <div class="card-img-overlay">
+                <p class="text-white" style="font-size: 35px;">Plan to</p>
+                <h1 class="text-uppercase text-white" style="filter: brightness(200%) contrast(200%) grayscale(100%) hue-rotate(360deg) invert(0%) sepia(100%);font-size: 60px;">Poland</h1>
+            </div>
         </div>
-    </nav>
-    <div class="login-clean">
-        <form method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email / Phone number"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><a class="btn btn-primary btn-block" role="button" href="HomePage.html">Log In</a><button class="btn btn-primary btn-block" type="submit" style="background-color:#4267b2;">Log In with Facebook</button></div><a href="#" class="forgot">Register new account</a></form>
     </div>
     <div class="footer-basic">
         <footer>
